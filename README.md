@@ -16,7 +16,7 @@ But sorry, no schematics...
 
 Controller used is a Teensy 3.2, with Arduino, using Serial+MIDI profile.
 Each control line is connected to Teensy using a 74LS245 chip (Teensy is 3v3 device), with out being in either High-Z or low when triggered. Electronics concept is really simple. 
-The trigger signals are connected to original wire straps, like Y-cable.
+The trigger signals are connected to original wire straps, like Y-cable. Teensy power is taken from KR only.
 
 We also take The clock in from the KR55 circuitry and always route it via Teensy. 
 Technically its done like the clock section in this: https://tubbutec.de/blog/midi-and-sync-for-korg-kr-55-unipulse-installation-guide/
